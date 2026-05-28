@@ -18,7 +18,7 @@ Site institucional single-page da **Uruz AI Consultoria Estratégica** — empre
 | Formulário | Web3Forms (API pública, gratuita) |
 | Fontes | Google Fonts: Cinzel + Inter |
 | Hospedagem | GitHub Pages (branch main, raiz) |
-| Domínio | `uruzai.com.br` (CNAME configurado) |
+| Domínio | `uruzconsultoria.com.br` (CNAME configurado) |
 
 ## Identidade Visual
 
@@ -34,7 +34,7 @@ Ver `BRAND.md` para referência completa. Resumo:
 
 Fontes: **Cinzel** (headlines, rústico/ancestral) + **Inter** (corpo, moderno)
 
-Símbolo principal: **ᚢ** (runa Uruz, Unicode: U+16C2)
+Símbolo principal: **ᚢ** (runa Uruz, Unicode: U+16A2)
 
 ## Seções do Site
 
@@ -42,7 +42,6 @@ Símbolo principal: **ᚢ** (runa Uruz, Unicode: U+16C2)
 |---|---|---|
 | Navegação | `nav.nav` | Logo + links + CTA "Vamos Conversar" |
 | Hero | `#home` | Badge, headline "Do Caos à Forma.", 2 CTAs |
-| Clientes | `.clientes` | 3 nomes: Itaú, COMNEcT, Citel |
 | Sobre | `#sobre` | Runa, origem Elder Futhark, 4 atributos |
 | Serviços | `#servicos` | 3 cards: Estratégia, Implementação, Mentoria |
 | Metodologia | `#metodologia` | 4 steps: Diagnóstico → Estratégia → Implementação → Produção |
@@ -58,7 +57,7 @@ Símbolo principal: **ᚢ** (runa Uruz, Unicode: U+16C2)
 - Linha: `<input type="hidden" name="access_key" value="SEU_ACCESS_KEY_WEB3FORMS_AQUI">`
 - Ação: criar conta em web3forms.com → adicionar e-mail → copiar access key
 
-**E-mail que recebe:** `contato@uruzai.com.br` (configurado no Web3Forms dashboard)
+**E-mail que recebe:** `contato@uruzconsultoria.com.br` (configurado no Web3Forms dashboard)
 
 **Campos do formulário:**
 - `name` (required) — texto, max 100 chars
@@ -117,21 +116,21 @@ Símbolo principal: **ᚢ** (runa Uruz, Unicode: U+16C2)
 
 - Branch: `main`
 - Folder: `/ (root)`
-- CNAME: `uruzai.com.br`
+- CNAME: `uruzconsultoria.com.br`
 - HTTPS: Enforce HTTPS ✅
 
 ## Pendências / Próximos Passos
 
-- [ ] **OBRIGATÓRIO:** Substituir `SEU_ACCESS_KEY_WEB3FORMS_AQUI` em `index.html` pela access key real
-- [ ] Criar e adicionar `assets/img/favicon-32.png` (32×32px)
-- [ ] Criar e adicionar `assets/img/apple-touch-icon.png` (180×180px)
-- [ ] Criar e adicionar `assets/img/og-image.jpg` (1200×630px)
-- [ ] Atualizar e-mail de contato em `index.html` quando definido
-- [ ] Atualizar URL do LinkedIn em `index.html` quando criado
-- [ ] Confirmar domínio `uruzai.com.br` e configurar DNS
-- [ ] Testar formulário com access key real em staging antes do go-live
-- [ ] Logo vetorial da marca (quando criado) — substituir o ᚢ textual por SVG
-- [ ] Adicionar Google Analytics ou Plausible quando definido
+- [ ] **BLOQUEANTE go-live:** Substituir `SEU_ACCESS_KEY_WEB3FORMS_AQUI` em `index.html` pela access key real (sem isso o formulário não envia nada). Precisa de conta do Thiago em web3forms.com com `contato@uruzconsultoria.com.br`
+- [x] favicons (`favicon-32.png`, `apple-touch-icon.png`, `favicon.ico/svg/512`) — criados 2026-05-28
+- [x] `assets/img/og-image.jpg` (1200×630px) + `logo.png` — gerados 2026-05-28
+- [x] Domínio `uruzconsultoria.com.br` aplicado (CNAME + HTML) — DNS ativo 2026-05-28
+- [ ] Confirmar URL do LinkedIn em `index.html` (`/company/uruzai` — validar se é o handle final)
+- [ ] **Prova social (decisão do Thiago):** site não tem clientes/casos/números. Maior alavanca de conversão para consultoria. Citar Itaú/COMNEcT/Citel exige autorização formal de uso de marca. Alternativa sem risco: prova anônima ("instituição financeira top 5") + métricas de resultado
+- [ ] CTA de WhatsApp direto (reduz fricção para CEO/Diretor além do formulário)
+- [ ] Analytics (Plausible ou GA) — sem isso não há medição de visita/origem
+- [ ] Logo vetorial profissional (quando criado) — substituir o ᚢ textual e o `logo.png` provisório por SVG
+- [ ] Validar contraste WCAG AA do texto cinza `#8A9BAD` em corpo pequeno (13px)
 
 ## Histórico de Mudanças
 
@@ -139,3 +138,4 @@ Símbolo principal: **ᚢ** (runa Uruz, Unicode: U+16C2)
 |---|---|---|
 | 2026-05-28 | Criação do site v1.0 | Site institucional inicial da Uruz AI |
 | 2026-05-28 | Agente de desenvolvimento criado | Documentar padrões para continuidade por IA |
+| 2026-05-28 | Domínio alterado para `uruzconsultoria.com.br` (era `uruz-ai`/`uruzai`); doc sincronizado; seção "Clientes" fantasma removida; og-image + logo gerados | Revisão do Maestro; DNS ativo, preparar go-live |

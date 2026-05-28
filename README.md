@@ -9,7 +9,7 @@ Site institucional da **Uruz AI Consultoria Estratégica**.
 - JavaScript vanilla (sem dependências)
 - Formulário via [Web3Forms](https://web3forms.com) (gratuito, sem backend)
 - Hospedagem: GitHub Pages
-- Domínio: `uruzai.com.br`
+- Domínio: `uruzconsultoria.com.br`
 
 ## Setup — Passo a passo
 
@@ -28,7 +28,7 @@ Site institucional da **Uruz AI Consultoria Estratégica**.
 ### 2. Atualizar informações de contato
 
 Em `index.html`, atualize:
-- E-mail: `contato@uruzai.com.br` (buscar por `mailto:`)
+- E-mail: `contato@uruzconsultoria.com.br` (buscar por `mailto:`)
 - LinkedIn: `https://linkedin.com/company/uruzai` (buscar por `linkedin.com`)
 
 ### 3. Deploy no GitHub Pages
@@ -40,7 +40,7 @@ Em `index.html`, atualize:
 
 ### 4. Configurar domínio customizado
 
-1. O arquivo `CNAME` já contém `uruzai.com.br` — não alterar
+1. O arquivo `CNAME` já contém `uruzconsultoria.com.br` — não alterar
 2. No painel DNS do seu registrador (Registro.br / Cloudflare):
 
 **Registros A (aponta `@` para GitHub Pages):**
@@ -56,7 +56,7 @@ A  @  185.199.111.153
 CNAME  www  thiagocolombosilva.github.io
 ```
 
-3. Settings → Pages → Custom domain → digitar `uruzai.com.br` → Save
+3. Settings → Pages → Custom domain → digitar `uruzconsultoria.com.br` → Save
 4. Marcar **Enforce HTTPS** ✅
 
 DNS pode levar até 24h para propagar.
